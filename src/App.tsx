@@ -2,6 +2,7 @@ import { Children } from "react";
 
 import Diamond from "./components/diamond";
 import Envelope from "./components/envelope";
+import Pepsi from "./components/pepsi";
 
 function VerticalCarousel({
   children,
@@ -22,6 +23,7 @@ export default function App() {
   return (
     <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-4">
       <VerticalCarousel>
+        <Pepsi />
         <Envelope />
         <Diamond />
       </VerticalCarousel>
