@@ -9,8 +9,8 @@ function VerticalCarousel({
   children: React.JSX.Element | React.JSX.Element[];
 }) {
   return Children.map(children, (child: React.JSX.Element) => (
-    <div className="relative m-5 flex w-full flex-col items-center justify-center bg-amber-600 py-44">
-      <h1 className="absolute top-1 left-2">
+    <div className="relative m-5 flex w-full flex-col items-center justify-center rounded-4xl bg-amber-50 py-44">
+      <h1 className="absolute top-4 left-6 text-xl font-bold text-amber-950">
         {child.type.name || "Native Element"}
       </h1>
       {child}
