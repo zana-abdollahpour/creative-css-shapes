@@ -1,5 +1,7 @@
 import { Children } from "react";
 
+import Diamond from "./components/diamond";
+
 function VerticalCarousel({
   children,
 }: {
@@ -19,7 +21,7 @@ export default function App() {
   return (
     <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-4">
       <VerticalCarousel>
-        <div>Test</div>
+        <Diamond />
       </VerticalCarousel>
     </div>
   );
