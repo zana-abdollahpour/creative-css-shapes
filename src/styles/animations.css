@@ -1,0 +1,18 @@
+@theme {
+  --animate-heartbeat: heartbeat 1.4s linear infinite backwards;
+}
+
+@keyframes heartbeat {
+  0%,
+  25%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  30%,
+  70% {
+    transform: scale(1.4);
+  }
+}

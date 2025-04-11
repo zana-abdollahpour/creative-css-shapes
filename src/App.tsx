@@ -1,6 +1,7 @@
 import { Children } from "react";
 
 import Diamond from "./components/diamond";
+import Envelope from "./components/envelope";
 
 function VerticalCarousel({
   children,
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-4">
       <VerticalCarousel>
+        <Envelope />
         <Diamond />
       </VerticalCarousel>
     </div>
