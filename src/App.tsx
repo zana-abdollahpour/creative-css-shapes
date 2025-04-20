@@ -4,6 +4,7 @@ import Diamond from "./components/diamond";
 import Envelope from "./components/envelope";
 import Pepsi from "./components/pepsi";
 import Camera from "./components/camera";
+import CoffeeMug from "./components/coffee-mug";
 
 function VerticalCarousel({
   children,
@@ -24,6 +25,7 @@ export default function App() {
   return (
     <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-4">
       <VerticalCarousel>
+        <CoffeeMug />
         <Camera />
         <Pepsi />
         <Envelope />
